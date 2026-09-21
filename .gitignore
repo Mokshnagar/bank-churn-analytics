@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+env/
+myenv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# Environment / secrets
+.env
+*.env
+
+# Model artifacts (regenerate with predictive_modelling/processed_data/preprocessing.py)
+*.pkl
+*.joblib
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Scratch
+Claude outputs/
+*-1.twb
+*.twb.bak
+Churn Prediction (original backup).twb
